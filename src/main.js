@@ -20,7 +20,7 @@ function calculateSimpleRevenue(purchase, _product) {
  */
 function calculateBonusByProfit(index, total, seller) {
   const { profit } = seller;
-  // Первое место (index === 0)
+
   if (index === 0) {
     return profit * 0.15;
   }
